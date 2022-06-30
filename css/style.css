@@ -1,0 +1,56 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2D3945;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: #2D3945;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 70px;
+}
+
+/* ================================= 
+  Class Element Styles
+==================================== */
+
+.wrapper {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.top_element {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: solid #2D3945 4px;
+}
+
+.contact_form {
+    border-top: solid #2D3945 2px;
+    border-bottom: solid #2D3945 2px;
+    padding: 40px 0;
+    margin: 3px 0;
+}
+
+.contact_header {
+    margin-top: 0;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 760px) {
+
+}

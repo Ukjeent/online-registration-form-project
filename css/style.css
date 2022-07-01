@@ -4,11 +4,13 @@
 
 * {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2D3945;
+    font-weight: 300;
 }
 
 header {
@@ -20,12 +22,24 @@ header {
     margin-bottom: 70px;
 }
 
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: grey;
+    font-style: italic;
+    font-size: 300;
+}
+
+fieldset {
+    padding: 0 0;
+}
+
 /* ================================= 
   Class Element Styles
 ==================================== */
 
 .wrapper {
-    width: 60vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
@@ -44,6 +58,17 @@ header {
 
 .contact_header {
     margin-top: 0;
+}
+
+.submit_button {
+    display: block;
+    color: white;
+    background-color: #4EBBB5;
+    width: 100%;
+    border: none;
+    padding: 12px 0;
+    border-radius: 3px;
+    font-weight: 600;
 }
 
 

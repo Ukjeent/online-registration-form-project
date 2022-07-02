@@ -19,19 +19,43 @@ header {
     background-color: #2D3945;
     padding-top: 2px;
     padding-bottom: 2px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     color: grey;
     font-style: italic;
-    font-size: 300;
+    font-weight: 300;
+    font-style: 0.5rem;
 }
 
 fieldset {
     padding: 0 0;
+}
+
+input,
+select {
+    width: 100%;
+    background-color: #EFF0F1;
+    border: none;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+}
+
+select:first-child {
+    color: red;
 }
 
 /* ================================= 
@@ -39,20 +63,20 @@ fieldset {
 ==================================== */
 
 .wrapper {
-    width: 50vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
 .top_element {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     border-bottom: solid #2D3945 4px;
 }
 
 .contact_form {
     border-top: solid #2D3945 2px;
     border-bottom: solid #2D3945 2px;
-    padding: 40px 0;
+    padding: 20px 0;
     margin: 3px 0;
 }
 

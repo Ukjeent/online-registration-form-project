@@ -29,9 +29,9 @@
                 <fieldset class="contact_form">
                     <h3 class="contact_header">Contact Information</h3>
                     <label for="name">Full name</label>
-                    <input type="text" id="name" name="customer_name"><br>
+                    <input type="text" id="name" name="customer_name" placeholder="Required" required><br>
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="customer_email"><br>
+                    <input type="email" id="email" name="customer_email" placeholder="Required" required><br>
                     <label for="phone">Phone number</label>
                     <input type="tel" id="phone" name="customer_phone"><br>
                     <label for="street">Street Address</label>
@@ -40,6 +40,7 @@
                     <input type="text" id="city" name="customer_city"><br>
                     <label for="state">State</label>
                     <select id="state" name="customer_state">
+                        <option value="choose_state" selected disabled hidden>Choose State</option>
                         <option value="State_1">State 1</option>
                         <option value="State_2">State 2</option>
                         <option value="State_3">State 3</option>

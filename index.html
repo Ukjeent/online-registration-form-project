@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>The Code Review</title>
 </head>
     <body>
     
@@ -26,20 +26,31 @@
 
             <form action="index.html" method="post">
 
-                <fieldset class="contact_form">
+                <fieldset class="contact_form flex_outer">
                     <h3 class="contact_header">Contact Information</h3>
-                    <label for="name">Full name</label>
-                    <input type="text" id="name" name="customer_name" placeholder="Required" required><br>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="customer_email" placeholder="Required" required><br>
-                    <label for="phone">Phone number</label>
-                    <input type="tel" id="phone" name="customer_phone"><br>
-                    <label for="street">Street Address</label>
-                    <input type="text" id="street" name="cutsomer_street"><br>
-                    <label for="city">City</label>
-                    <input type="text" id="city" name="customer_city"><br>
+                    <div class="flex_inner">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="customer_name" placeholder="Required" required><br>
+                    </div>
+                    <div class="flex_inner">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="customer_email" placeholder="Required" required><br>
+                    </div>
+                    <div class="flex_inner">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="customer_phone"><br>
+                    </div>
+                    <div class="flex_inner">
+                        <label for="street">Street Address</label>
+                        <input type="text" id="street" name="cutsomer_street"><br>
+                    </div>
+                    <div class="flex_inner">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="customer_city"><br>
+                    </div>
+                    <div class="flex_inner">
                     <label for="state">State</label>
-                    <select id="state" name="customer_state">
+                    <select id="state" name="customer_state">                    
                         <option value="choose_state" selected disabled hidden>Choose State</option>    
                         <optgroup label="Choose State"></optgroup>                
                             <option value="State_1" >State 1</option>
@@ -53,9 +64,12 @@
                             <option value="State_9">State 9</option>
                             <option value="State_10">State 10</option>
                         </optgroup>
-                    </select><br>                
-                    <label for="zip">ZipCode</label>
-                    <input type="number" id="zip" name="customer_zip"><br>
+                    </select><br>
+                    </div> 
+                    <div class="flex_inner">               
+                        <label for="zip">ZipCode</label>
+                        <input type="number" id="zip" name="customer_zip"><br>
+                    </div> 
                 </fieldset>
 
                 <fieldset class="newsletter_form">

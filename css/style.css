@@ -54,7 +54,7 @@ select {
     padding-right: 5px;
 }
 
-select:first-child {
+.test2 {
     color: red;
 }
 

@@ -35,7 +35,7 @@ fieldset {
     padding: 0 0;
 }
 
-input,
+.contact_form > input,
 select {
     width: 100%;
     background-color: #EFF0F1;
@@ -45,6 +45,11 @@ select {
     margin-bottom: 20px;
 }
 
+input[id="zip"] {
+    width: 50%;
+    display: block;
+  }
+
 ::placeholder {
     color: grey;
     font-size: 0.7rem;
@@ -52,6 +57,18 @@ select {
     font-style: italic;
     text-align: right;
     padding-right: 5px;
+}
+
+.newsletter_label {
+    display: block;
+}
+
+.radio_label {
+    display: inline-block;
+    font-weight: bold;
+    color: green;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .test2 {

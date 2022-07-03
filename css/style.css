@@ -35,16 +35,6 @@ fieldset {
     padding: 0 0;
 }
 
-.contact_form > input,
-select {
-    width: 100%;
-    background-color: #EFF0F1;
-    border: none;
-    padding: 10px 0;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
 input[id="zip"] {
     width: 50%;
     display: block;
@@ -57,22 +47,6 @@ input[id="zip"] {
     font-style: italic;
     text-align: right;
     padding-right: 5px;
-}
-
-.newsletter_label {
-    display: block;
-}
-
-.radio_label {
-    display: inline-block;
-    font-weight: bold;
-    color: green;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.test2 {
-    color: red;
 }
 
 /* ================================= 
@@ -97,8 +71,30 @@ input[id="zip"] {
     margin: 3px 0;
 }
 
+.contact_form > input,
+select {
+    display: block;
+    width: 100%;
+    background-color: #EFF0F1;
+    border: none;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .contact_header {
     margin-top: 0;
+}
+
+.radio_label {
+    display: inline-block;
+    font-weight: bold;
+    color: green;
+    padding: 3px 5px;
+}
+
+.newsletter_label {
+    display: block;
 }
 
 .submit_button {
@@ -117,6 +113,19 @@ input[id="zip"] {
   Media Queries
 ==================================== */
 
-@media (min-width: 760px) {
+@media (min-width: 769px) {
+
+    .contact_form > label {
+        display: inline-block;
+        float: left;   
+        clear: left;
+        text-align: right;
+    }
+
+    .contact_form > input,
+    select {
+        display: inline-block;
+        float: right;
+    }
 
 }

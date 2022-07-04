@@ -42,12 +42,19 @@ footer {
     color: grey;
     font-style: italic;
     font-weight: 300;
-    font-style: 0.5rem;
     padding: 30px 0;
 }
 
 fieldset {
     padding: 0 0;
+}
+
+legend {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 textarea {
@@ -80,14 +87,9 @@ textarea {
     border-bottom: solid #2D3945 4px;
 }
 
-.contact_header {
-    margin-top: 0;
-}
-
 .contact_form {
     border-top: solid #2D3945 2px;
     border-bottom: solid #2D3945 2px;
-    padding-top: 20px;
     margin: 3px 0;
 }
 

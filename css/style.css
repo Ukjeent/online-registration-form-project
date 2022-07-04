@@ -11,6 +11,7 @@ body {
     font-family: 'Merriweather', serif;
     color: #2D3945;
     font-weight: 300;
+    background: rgb(226, 254, 254);
 }
 
 header {
@@ -70,6 +71,10 @@ textarea {
     padding-right: 10px;
 }
 
+textarea::placeholder {
+    text-align: left;
+}
+
 /* ================================= 
   Class Element Styles
 ==================================== */
@@ -113,6 +118,8 @@ select:focus,
 textarea:focus {
     border: solid #2D3945 2px;
     outline: 0;
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .newsletter_header {
